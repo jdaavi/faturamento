@@ -1,0 +1,38 @@
+
+{
+    "5": {
+        "Alimentacao_funcionario": {
+            "coluna_tratativa": "telefone2",
+            "codigo": "9911223344",
+                "metodo_busca": "completo",
+                "coluna_auxiliar": "True",
+                "tratativa_auxiliar": {
+                    "coluna_tratativa": "Cliente Identificado/Delivery",
+                    "codigo": "REFEICAO FUNCIONARIO",
+                    "metodo_busca": "COMPLETO" 
+            }
+        },
+        "Central_de_atendimento": {
+            "coluna_tratativa": "telefone2",
+            "codigo": "9911223344",
+            "metodo_busca": "completo",
+            "coluna_auxiliar": "True",
+            "tratativa_auxiliar": {
+                "coluna_tratativa": "Origem Pedido",
+                "codigo": "AnotaAi",
+                "metodo_busca":"COMPLETO"
+            }
+        },
+        "Venda_balcao": {
+            "coluna_tratativa": "telefone2",
+            "codigo": "9911223344",
+            "metodo_busca": "completo",
+            "coluna_auxiliar": "True",
+            "tratativa_auxiliar":{
+                "coluna_tratativa": "Origem Pedido",
+                "codigo": "Local",
+                "metodo_busca":"COMPLETO"
+            }
+        }   
+    } 
+}
