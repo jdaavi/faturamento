@@ -33,6 +33,72 @@
                 "codigo": "Local",
                 "metodo_busca":"COMPLETO"
             }
-        }   
+        },
+        "Barato_coletivo": {
+            "coluna_tratativa":"telefone2",
+            "codigo": "9911223344",
+            "metodo_busca": "completo",
+            "coluna_auxiliar": "True",
+            "tratativa_auxiliar":{
+                "coluna_tratativa":"Cliente Identificado/Delivery",
+                "codigo":"BARATO COLETIVO",
+                "metodo_busca":"COMPLETO"
+            }
+        },
+        "Cupom": {
+            "coluna_tratativa":"telefone2",
+            "codigo": "9911223344",
+            "metodo_busca": "completo",
+            "coluna_auxiliar": "True",
+            "tratativa_auxiliar":{
+                "coluna_tratativa":"Cliente Identificado/Delivery",
+                "codigo":"VOUCHER CUPOM IMPRESSO",
+                "metodo_busca":"COMEÇO"
+            }
+        },
+        "Primeira_mesa": {
+            "coluna_tratativa":"telefone2",
+            "codigo": "9911223344",
+            "metodo_busca": "completo",
+            "coluna_auxiliar": "True",
+            "tratativa_auxiliar": {
+                "coluna_tratativa":"Cliente Identificado/Delivery",
+                "codigo":"PRIMEIRA MESA",
+                "metodo_busca":"COMPLETO"
+            }
+        },
+        "Duo_Gourmet": {
+            "coluna_tratativa":"telefone2",
+            "codigo": "9911223344",
+            "metodo_busca": "completo",
+            "coluna_auxiliar": "True",
+            "tratativa_auxiliar": {
+                "coluna_tratativa":"Cliente Identificado/Delivery",
+                "codigo":"DUO GOURMET",
+                "metodo_busca":"COMPLETO"
+            }
+        },
+        "Fortal_em_dobro": {
+            "coluna_tratativa":"telefone2",
+            "codigo": "9911223344",
+            "metodo_busca": "completo",
+            "coluna_auxiliar": "True",
+            "tratativa_auxiliar": {
+                "coluna_tratativa":"Cliente Identificado/Delivery",
+                "codigo":"FORTAL EM DOBRO",
+                "metodo_busca":"COMPLETO"
+            }
+        },
+        "Texnet": {
+            "coluna_tratativa":"telefone2",
+            "codigo": "9911223344",
+            "metodo_busca": "completo",
+            "coluna_auxiliar": "True",
+            "tratativa_auxiliar": {
+                "coluna_tratativa":"Cliente Identificado/Delivery",
+                "codigo":"PERMUTA TEXNET",
+                "metodo_busca":"COMEÇO"
+            }
+        }
     } 
 }
